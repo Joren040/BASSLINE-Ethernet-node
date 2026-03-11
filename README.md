@@ -54,4 +54,20 @@ It is then i stumbeld upon <a href="https://github.com/tmingos/Pico-ArtNet-DMX-N
 <div>After the build, connect the Raspberry Pi Pico to pc and find it's COM port, select and flash  with the code</div>
 </p>
 
+<p><b>How to use</b></p>
+<p>When the device boots it will display a logo (pgmspace.h to change) for 5 seconds. If you press and hold the setup button when the logo is displayed it will enter the main menu.
+Here you can enter the settings menu, reset netwerk or exit main menu. It is important to note that when the device is in the main menu, it is not receiving data or outputting DMX</p>
+
+<p>In settings you can set an IP adress which protocol you want to use ArtNet or s/ACN and which universe will be coupeled to output A and B and if you want debug mode to be on.
+Debug serial prints the received frame data to a serial monitor. This does slow the node so by default it is turned off. It is also not recommend to keep this turned on if it is not absolutly needed. 
+Therefor it is the only setting that is not stored in the eeprom and will reset if the device power cycles.  Once you go through all the settings you enter main menu again.
+You will stay in the main menu until you exit. The settings will be saved to the eeprom and loaded in the right variables.</p>
+
+<p>The reset netwerk function will not only restore the default IP adress and protocol it will also hard reset the W5500 IC by pulling it's reset pin high. This might be needed when connecting to cheap netwerk switches.</p>
+
+<p>Once you exit the main menu the device starts up with the set ip protocol and universe and starts listingen. as soon as it receives data it will start outputting DMX. 
+As a saftey feature the buttons will be disabled to prevent accidentally restarting the device. You need to power cycle the device an hold the setup button agian if you want to make changes.</p>
+
+<p>If you power cycle the node and don't hold the setup button it would just load the last saved variables from the eeprom and start up whitout going into the menu.  It is currently not configured to handle DHCP and will require you to set an IP. IF you don't it will default to 2.0.0.1 which was the standard range for ArtNet.</p>
+
 
