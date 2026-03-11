@@ -22,7 +22,7 @@ It is then i stumbeld upon <a href="https://github.com/tmingos/Pico-ArtNet-DMX-N
 <li><b>Onboard menu:</b> Set the IP address, universes and protocol on the device directly.</li>
 <li><b>Isolated:</b> Used optocouplers and power isolator to separate DMX signal from microcontroller logic.</li>
 <li><b>Eeprom:</b> Added an memory chip to store data between power cycles.</li>
-<li><b>Compatibillty</b> Tested with MagicQ (in ArtNet & s/ACN modes), OLA & my <a href=https://github.com/Joren040/BASSLINE-Recorder">BASSLINE Recorder</a>.</li>
+<li><b>Compatibillty</b> Tested with MagicQ (in ArtNet & s/ACN modes), OLA & my <a href=https://github.com/Joren040/BASSLINE-Recorder>BASSLINE Recorder</a>.</li>
 </ul>
 
 <h2><p align="center">🛠 Dependencies</p></h2>
