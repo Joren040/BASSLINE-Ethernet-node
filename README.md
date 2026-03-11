@@ -35,3 +35,17 @@ It is then i stumbeld upon <a href="https://github.com/tmingos/Pico-ArtNet-DMX-N
 <li>Adafruit SSD1306 (Tested with 2.5.10)</li>
 <li>Adafruit GFX Library (Tested with 1.11.9)</li>
 </ul>
+
+<h2><p align="center">🚀 Installation & Usage</p></h2>
+
+<p>This project has been written in PlatfromIO</p>
+
+<p><b>1. create a new platformIO project</b></p>
+<p>select the raspberry Pi Pico as device and Arduino as framework.</p>
+
+<p><b>2. copy the contents to the correct files</b></p>
+<p>Start with the contents of the <code>platform.ini</code> file.Then add the 2 files to the inlcude folder <code>platform.ini</code> & <code>platform.ini</code></p>
+
+
+
+
