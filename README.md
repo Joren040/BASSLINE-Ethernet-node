@@ -44,8 +44,14 @@ It is then i stumbeld upon <a href="https://github.com/tmingos/Pico-ArtNet-DMX-N
 <p>select the raspberry Pi Pico as device and Arduino as framework.</p>
 
 <p><b>2. copy the contents to the correct files</b></p>
-<p>Start with the contents of the <code>platform.ini</code> file.Then add the 2 files to the inlcude folder <code>platform.ini</code> & <code>platform.ini</code></p>
+<p>
+<div>Start with the contents of the <code>platform.ini</code> file.Then add the 2 files to the inlcude folder <code>config.h</code> & <code>pgmspace.h</code></div>
+<div>At last locate the src folder and copy over the code of the <code>main.cpp</code> file, and build the project. It might take some for the nessecary libraries to install.</div>
+</p>
 
-
+<p><b>3. flash the Pi pico</b></p>
+<p>
+<div>After the build, connect the Raspberry Pi Pico to pc and find it's COM port, select and flash  with the code</div>
+</p>
 
 
