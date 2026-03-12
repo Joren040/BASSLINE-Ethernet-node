@@ -26,6 +26,7 @@ It is then i stumbeld upon <a href="https://github.com/tmingos/Pico-ArtNet-DMX-N
 </ul>
 
 <h2><p align="center">🛠 Dependencies</p></h2>
+<img src="https://raw.githubusercontent.com/Joren040/BASSLINE-Ethernet-node/main/Designs/Pictures/Ethernet-node.png" align="right" width="250" alt="Ethernet Node">
 <p><i>Special thanks to the creators of these libraries</i></p>
 <ul>
 <li>Pico-DMX by Jostein (Tested with 3.0.1)</li>
