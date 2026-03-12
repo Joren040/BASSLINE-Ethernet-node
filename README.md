@@ -26,7 +26,6 @@ It is then i stumbeld upon <a href="https://github.com/tmingos/Pico-ArtNet-DMX-N
 </ul>
 
 <h2><p align="center">🛠 Dependencies</p></h2>
-<img src="https://raw.githubusercontent.com/Joren040/BASSLINE-Ethernet-node/main/Designs/Pictures/Ethernet-node.png" align="right" width="250" alt="Ethernet Node">
 <p><i>Special thanks to the creators of these libraries</i></p>
 <ul>
 <li>Pico-DMX by Jostein (Tested with 3.0.1)</li>
@@ -70,5 +69,7 @@ You will stay in the main menu until you exit. The settings will be saved to the
 As a saftey feature the buttons will be disabled to prevent accidentally restarting the device. You need to power cycle the device an hold the setup button agian if you want to make changes.</p>
 
 <p>If you power cycle the node and don't hold the setup button it would just load the last saved variables from the eeprom and start up whitout going into the menu.  It is currently not configured to handle DHCP and will require you to set an IP. IF you don't it will default to 2.0.0.1 which was the standard range for ArtNet.</p>
-
+<p>
+<img src="https://raw.githubusercontent.com/Joren040/BASSLINE-Ethernet-node/main/Designs/Pictures/Ethernet-node.png" align="center" width="350" alt="Ethernet Node">
+</p>
 
