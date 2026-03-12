@@ -9,7 +9,7 @@
 <div>So i decided i would design them a new one, they wanted something simple and affordable, but would have liked 2 output universe.
 It is then i stumbeld upon <a href="https://github.com/tmingos/Pico-ArtNet-DMX-Node">Pico-ArtNet-DMX-Node by tmingos</a> and decide to move from USB to ArtNet.</div>
 <div>This project was a great inspiration i liked the onboard OLED and Dual DMX output,and use of a cheap readily available components like the Raspberry Pi pico microntroller.</div>
-<div>I did not like that it was depended on a wireless connection, they needed a physical connection so i moved to Ethernet.</div>
+<div>I did not like that it was depended on a wireless connection, i needed a physical connection so i moved to Ethernet.</div>
 <div>The onboard OLED would be very under utilized in a wired scenario so i added 4 buttons an build an entire menu.</div> 
 <div>Here the user can set IP, universe and protocol, because i was also able to add s/ACN.</div>
 
