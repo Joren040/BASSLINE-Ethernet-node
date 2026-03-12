@@ -38,7 +38,7 @@ It is then i stumbeld upon <a href="https://github.com/tmingos/Pico-ArtNet-DMX-N
 
 <h2><p align="center">🚀 Installation & Usage</p></h2>
 
-<p>This project has been written in PlatfromIO</p>
+<p>This project has been written in PlatfromIO. If you wan to rebuild this as it is but you can simply flash the <code>firmware.uf2</code> file. If you want to modify it you can follow the steps below.</p>
 
 <p><b>1. create a new platformIO project</b></p>
 <p>select the raspberry Pi Pico as device and Arduino as framework.</p>
